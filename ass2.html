@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: sans-serif;
+  background-color: ghostwhite;
+}
+
+.container {
+  width: 600px;
+  margin-top: 5%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  padding: 50px;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: honeydew;
+  text-align: center;
+}
+.row {
+    margin-top: 500px;
+    margin-right: 20px;
+  margin-bottom: 35px;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px auto;
+  margin-bottom: 10px;
+  margin-right: 10px auto;
+  
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.checkbox{
+text-align: left;
+
+}
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>SIGN-IN</h2>
+        <input type="text" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <div class="checkbox">
+          <input type="checkbox" id="showPassword">
+          <label for="showPassword">Show Password</label>
+        </div>
+        <button>SIGN IN</button>
+        <div class="links">
+          <a href="#">Forgot Username / Password?</a><br><br>
+          <a href="#">Don't have an account? Sign up</a>
+        </div>
+      </div>
+      
+
+</body>
+</html>
